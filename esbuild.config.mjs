@@ -25,6 +25,8 @@ const context = await esbuild.context({
 			define: {
 				'process': '{}', // 继承主配置
 			},
+			target: 'es2022',
+			format: 'esm', // Ensure ESM format for modern features
 		})
 	],
 	external: [
@@ -69,19 +71,22 @@ const context = await esbuild.context({
 	drop: prod ? ['console', 'debugger'] : [],
 	legalComments: prod ? 'none' : 'inline',
 	metafile: true,
+	alias: {
+		'zod/v3': 'zod',
+	},
 })
 
 if (prod) {
 	const result = await context.rebuild()
-	
+
 	// 如果启用分析，生成可视化报告
 	if (process.env.ANALYZE && result.metafile) {
 		const fs = await import('fs')
-		
+
 		// 将 metafile 写入临时文件，然后使用命令行工具
 		fs.writeFileSync('metafile.json', JSON.stringify(result.metafile))
 		console.log('📊 Generating bundle analysis report...')
-		
+
 		// 使用命令行工具生成报告
 		const { exec } = await import('child_process')
 		exec('npx esbuild-visualizer --metadata metafile.json --filename bundle-analysis.html --template treemap --open', (error, stdout, stderr) => {
@@ -92,11 +97,11 @@ if (prod) {
 				// 清理临时文件
 				try {
 					fs.unlinkSync('metafile.json')
-				} catch (e) {}
+				} catch (e) { }
 			}
 		})
 	}
-	
+
 	process.exit(0)
 } else {
 	await context.watch()
