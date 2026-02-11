@@ -15,7 +15,7 @@
     "lint": "eslint 'src/**/*.{ts,tsx}'"
   },
   "keywords": [],
-  "author": "",
+  "author": "yh",
   "license": "MIT",
   "devDependencies": {
     "@types/diff": "^5.2.3",

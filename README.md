@@ -4,6 +4,18 @@
 
 <a href="README.md" target="_blank"><b>English</b></a>  |  <a href="README_zh-CN.md" target="_blank"><b>中文</b></a>
 
+## 🔀 Fork Modifications (by yh)
+
+This is a fork of the original [infiolab/infio-copilot](https://github.com/infiolab/infio-copilot). The following changes have been made:
+
+### 0.8.7 (2026-02-12)
+- 🔧 Fixed esbuild configuration for worker plugin compatibility (`target: 'es2022'`)
+- 🔧 Added `zod/v3` alias to resolve build errors with newer zod versions
+- 👤 Updated author information
+- 📦 BRAT installation support: add `rezonegame/infio-copilot` in BRAT settings
+
+---
+
 ## ✨ What's New
 [0.7.2](https://github.com/infiolab/infio-copilot/releases/tag/0.7.2) 
 We're excited to announce a major update packed with new features to streamline your workflow and supercharge your knowledge management within Obsidian.

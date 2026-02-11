@@ -26,7 +26,6 @@ const context = await esbuild.context({
 				'process': '{}', // 继承主配置
 			},
 			target: 'es2022',
-			format: 'esm', // Ensure ESM format for modern features
 		})
 	],
 	external: [
