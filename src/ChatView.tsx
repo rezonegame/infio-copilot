@@ -8,15 +8,9 @@ import Chat, { ChatProps, ChatRef } from './components/chat-view/ChatView'
 import { CHAT_VIEW_TYPE } from './constants'
 import { AppProvider } from './contexts/AppContext'
 import { DarkModeProvider } from './contexts/DarkModeContext'
-import { DatabaseProvider } from './contexts/DatabaseContext'
-import { DataviewProvider } from './contexts/DataviewContext'
 import { DialogProvider } from './contexts/DialogContext'
-import { DiffStrategyProvider } from './contexts/DiffStrategyContext'
 import { LLMProvider } from './contexts/LLMContext'
-import { McpHubProvider } from './contexts/McpHubContext'
-import { RAGProvider } from './contexts/RAGContext'
 import { SettingsProvider } from './contexts/SettingsContext'
-import { TransProvider } from './contexts/TransContext'
 import InfioPlugin from './main'
 import { MentionableBlockData } from './types/mentionable'
 import { InfioSettings } from './types/settings'
@@ -52,8 +46,6 @@ export class ChatView extends ItemView {
 
 	async onOpen() {
 		await this.render()
-
-		// Consume chatProps
 		this.initialChatProps = undefined
 	}
 
@@ -62,7 +54,6 @@ export class ChatView extends ItemView {
 	}
 
 	async render() {
-		// 确保容器元素存在
 		const containerElement = this.containerEl.children[1]
 		if (!containerElement || !(containerElement instanceof HTMLElement)) {
 			console.error('ChatView: Container element not found or invalid')
@@ -76,10 +67,10 @@ export class ChatView extends ItemView {
 		const queryClient = new QueryClient({
 			defaultOptions: {
 				queries: {
-					gcTime: 0, // Immediately garbage collect queries. It prevents memory leak on ChatView close.
+					gcTime: 0,
 				},
 				mutations: {
-					gcTime: 0, // Immediately garbage collect mutations. It prevents memory leak on ChatView close.
+					gcTime: 0,
 				},
 			},
 		})
@@ -97,29 +88,15 @@ export class ChatView extends ItemView {
 				>
 					<DarkModeProvider>
 						<LLMProvider>
-							<DatabaseProvider
-								getDatabaseManager={() => this.plugin.getDbManager()}
-							>
-								<DiffStrategyProvider diffStrategy={this.plugin.diffStrategy}>
-									<RAGProvider getRAGEngine={() => this.plugin.getRAGEngine()}>
-										<TransProvider getTransEngine={() => this.plugin.getTransEngine()}>
-											<DataviewProvider dataviewManager={this.plugin.dataviewManager}>
-											<McpHubProvider getMcpHub={() => this.plugin.getMcpHub()}>
-												<QueryClientProvider client={queryClient}>
-													<React.StrictMode>
-														<DialogProvider
-															container={containerElement}
-														>
-															<Chat ref={this.chatRef} {...this.initialChatProps} />
-														</DialogProvider>
-													</React.StrictMode>
-												</QueryClientProvider>
-											</McpHubProvider>
-										</DataviewProvider>
-										</TransProvider>
-									</RAGProvider>
-								</DiffStrategyProvider>
-							</DatabaseProvider>
+							<QueryClientProvider client={queryClient}>
+								<React.StrictMode>
+									<DialogProvider
+										container={containerElement}
+									>
+										<Chat ref={this.chatRef} {...this.initialChatProps} />
+									</DialogProvider>
+								</React.StrictMode>
+							</QueryClientProvider>
 						</LLMProvider>
 					</DarkModeProvider>
 				</SettingsProvider>

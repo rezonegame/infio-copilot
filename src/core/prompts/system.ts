@@ -1,7 +1,5 @@
 import * as path from 'path'
-
 import { App, normalizePath } from 'obsidian'
-
 import { FilesSearchSettings } from "../../types/settings"
 import {
 	CustomModePrompts,
@@ -13,9 +11,8 @@ import {
 	getGroupName,
 	getModeBySlug
 } from "../../utils/modes"
-import { DiffStrategy } from "../diff/DiffStrategy"
-import { McpHub } from "../mcp/McpHub"
 
+// Removed DiffStrategy, McpHub imports
 
 import { ROOT_DIR } from './constants'
 import {
@@ -28,9 +25,7 @@ import {
 	getSharedToolUseSection,
 	getToolUseGuidelinesSection
 } from "./sections"
-// import { loadSystemPromptFile } from "./sections/custom-system-prompt"
 import { getToolDescriptionsForMode } from "./tools"
-
 
 export class SystemPrompt {
 	protected dataDir: string
@@ -49,7 +44,6 @@ export class SystemPrompt {
 	}
 
 	private getSystemPromptFilePath(mode: Mode): string {
-		// Format: {mode slug}_system_prompt.md
 		return `${mode}/system_prompt.md`
 	}
 
@@ -69,8 +63,8 @@ export class SystemPrompt {
 		mode: Mode,
 		searchSettings: FilesSearchSettings,
 		filesSearchMethod: string,
-		mcpHub?: McpHub,
-		diffStrategy?: DiffStrategy,
+		// mcpHub?: McpHub,  <- Removed
+		// diffStrategy?: DiffStrategy, <- Removed
 		browserViewportSize?: string,
 		promptComponent?: PromptComponent,
 		customModeConfigs?: ModeConfig[],
@@ -81,15 +75,13 @@ export class SystemPrompt {
 		enableMcpServerCreation?: boolean,
 	): Promise<string> {
 
-		// Get the full mode config to ensure we have the role definition
 		const modeConfig = getModeBySlug(mode, customModeConfigs) || defaultModes.find((m) => m.slug === mode) || defaultModes[0]
 		const roleDefinition = promptComponent?.roleDefinition || modeConfig.roleDefinition
 
+		// Removed McpHub/DiffStrategy usage
 		const [modesSection, mcpServersSection] = await Promise.all([
 			getModesSection(),
-			modeConfig.groups.some((groupEntry) => getGroupName(groupEntry) === "mcp")
-				? getMcpServersSection(mcpHub, diffStrategy, enableMcpServerCreation)
-				: Promise.resolve(""),
+			Promise.resolve(""), // Empty MCP section
 		])
 
 		const basePrompt = `${roleDefinition}
@@ -102,9 +94,9 @@ ${getToolDescriptionsForMode(
 			searchSettings,
 			filesSearchMethod,
 			supportsComputerUse,
-			diffStrategy,
+			undefined, // diffStrategy
 			browserViewportSize,
-			mcpHub,
+			undefined, // mcpHub
 			customModeConfigs,
 			experiments,
 		)}
@@ -126,7 +118,7 @@ ${getRulesSection(
 			cwd,
 			filesSearchMethod,
 			supportsComputerUse,
-			diffStrategy,
+			undefined, // diffStrategy
 			experiments,
 		)}
 
@@ -144,10 +136,10 @@ ${await addCustomInstructions(this.app, promptComponent?.customInstructions || m
 		searchSettings: FilesSearchSettings,
 		filesSearchMethod: string = 'regex',
 		preferredLanguage?: string,
-		diffStrategy?: DiffStrategy,
+		// diffStrategy?: DiffStrategy,
 		customModePrompts?: CustomModePrompts,
 		customModes?: ModeConfig[],
-		mcpHub?: McpHub,
+		// mcpHub?: McpHub,
 		browserViewportSize?: string,
 		globalCustomInstructions?: string,
 		diffEnabled?: boolean,
@@ -162,16 +154,10 @@ ${await addCustomInstructions(this.app, promptComponent?.customInstructions || m
 			return undefined
 		}
 
-		// Try to load custom system prompt from file
 		const fileCustomSystemPrompt = await this.loadSystemPromptFile(mode)
-
-		// Check if it's a custom mode
 		const promptComponent = getPromptComponent(customModePrompts?.[mode])
-
-		// Get full mode config from custom modes or fall back to built-in modes
 		const currentMode = getModeBySlug(mode, customModes) || defaultModes.find((m) => m.slug === mode) || defaultModes[0]
 
-		// If a file-based custom system prompt exists, use it
 		if (fileCustomSystemPrompt) {
 			const roleDefinition = promptComponent?.roleDefinition || currentMode.roleDefinition
 			const customInstructions = await addCustomInstructions(
@@ -189,18 +175,14 @@ ${fileCustomSystemPrompt}
 ${customInstructions}`
 		}
 
-		// // If diff is disabled, don't pass the diffStrategy
-		// const effectiveDiffStrategy = diffEnabled ? diffStrategy : undefined
-
 		return this.generatePrompt(
-			// context,
 			cwd,
 			supportsComputerUse,
 			currentMode.slug,
 			searchSettings,
 			filesSearchMethod,
-			mcpHub,
-			diffStrategy,
+			// undefined, // mcpHub
+			// undefined, // diffStrategy
 			browserViewportSize,
 			promptComponent,
 			customModes,

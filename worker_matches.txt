@@ -1,0 +1,12 @@
+=== Worker #0 (Line 1711) ===
+a.hooks.run("before-highlight",g),!g.grammar){y(a.util.encode(g.code));return}if(E&&t.Worker){var W=new Worker(a.filename);W.onmessage=function(S){y(S.data)},W.postMessage(JSON.stringify({language:g.language,code:g.code,immediateClose:!0}))}else y(a.highlight(g.code,g.grammar,g.language))},highlight:function(h,E,b){var G={code:h,grammar:E,language:b};if(a.hooks.run("before-tokenize",G),!G.grammar)
+
+=== Worker #1 (Line 9826) ===
+state")}}});function xce(t){let e=new Blob([t],{type:"text/javascript"}),n=URL.createObjectURL(e),r=new Worker(n);return URL.revokeObjectURL(n),r}var Fgt=v(()=>{});function Cgt(){return xce(`var na=Object.create;var Ht=Object.defineProperty;var la=Object.getOwnPropertyDescriptor;var ca=Object.getOwnPropertyNames;var Na=Object.getPrototypeOf,Ia=Object.prototype.hasOwnProperty;var X_=(_,t)=>()=>(_&&
+
+=== Worker #2 (Line 10502) ===
+ob||i,wasmMemory:G,wasmModule:ne})},yc:function(){var S=R("ort-wasm-threaded.worker.js");ue.Yb.push(new Worker(S))},Cc:function(){return ue.Yb.length==0&&(ue.yc(),ue.Fc(ue.Yb[0])),ue.Yb.pop()}};function Jt(S){for(;0<S.length;)S.shift()(n)}function go(S){var k=be();return S=S(),_e(k),S}function _o(S){if(O)return re(2,0,S);try{On(S)}catch(k){k instanceof Ut||k=="unwind"||T(1,k)}}n.PThread=ue,n.estab
+
+=== Worker #3 (Line 10502) ===
+iptDir,wasmMemory:j,wasmModule:k})},yc:function(){var t=S("ort-wasm-threaded.worker.js");ht.Yb.push(new Worker(t))},Cc:function(){return 0==ht.Yb.length&&(ht.yc(),ht.Fc(ht.Yb[0])),ht.Yb.pop()}};function dt(t){for(;0<t.length;)t.shift()(u)}function yt(t){var e=Ee();return t=t(),Me(e),t}function bt(t){if(O)return $t(2,0,t);try{pt(t)}catch(t){t instanceof ct||"unwind"==t||g(1,t)}}u.PThread=ht,u.estab
+

@@ -1,7 +1,7 @@
 import { FilesSearchSettings } from "../../../types/settings"
 import { Mode, ModeConfig, getGroupName, getModeConfig, isToolAllowedForMode } from "../../../utils/modes"
-import { DiffStrategy } from "../../diff/DiffStrategy"
-import { McpHub } from "../../mcp/McpHub"
+
+// Removed DiffStrategy, McpHub imports
 
 import { getAccessMcpResourceDescription } from "./access-mcp-resource"
 import { getAskFollowupQuestionDescription } from "./ask-followup-question"
@@ -34,12 +34,11 @@ const toolDescriptionMap: Record<string, (args: ToolArgs) => string | undefined>
 	attempt_completion: () => getAttemptCompletionDescription(),
 	switch_mode: () => getSwitchModeDescription(),
 	insert_content: (args) => getInsertContentDescription(args),
-	use_mcp_tool: (args) => getUseMcpToolDescription(args),
-	access_mcp_resource: (args) => getAccessMcpResourceDescription(args),
+	use_mcp_tool: (args) => "", // Disabled
+	access_mcp_resource: (args) => "", // Disabled
 	search_and_replace: (args) => getSearchAndReplaceDescription(args),
 	manage_files: (args) => getManageFilesDescription(args),
-	apply_diff: (args) =>
-		args.diffStrategy ? args.diffStrategy.getToolDescription({ cwd: args.cwd, toolOptions: args.toolOptions }) : "",
+	apply_diff: (args) => "", // Disabled
 	search_web: (args): string | undefined => getSearchWebDescription(args),
 	fetch_urls_content: (args): string | undefined => getFetchUrlsContentDescription(args),
 }
@@ -50,23 +49,22 @@ export function getToolDescriptionsForMode(
 	searchSettings: FilesSearchSettings,
 	searchTool: string,
 	supportsComputerUse: boolean,
-	diffStrategy?: DiffStrategy,
-	browserViewportSize?: string,
-	mcpHub?: McpHub,
+	// diffStrategy?: DiffStrategy, // Removed
+	// browserViewportSize?: string, // Removed or kept as optional
+	// mcpHub?: McpHub, // Removed
 	customModes?: ModeConfig[],
 	experiments?: Record<string, boolean>,
 ): string {
-	// console.log("getToolDescriptionsForMode", mode, customModes)
 	const config = getModeConfig(mode, customModes)
-	// console.log("config", config)
+	// Mock args without heavy dependencies
 	const args: ToolArgs = {
 		cwd,
 		searchSettings,
 		searchTool,
 		supportsComputerUse,
-		diffStrategy,
-		browserViewportSize,
-		mcpHub,
+		// diffStrategy,
+		// browserViewportSize,
+		// mcpHub,
 	}
 
 	const tools = new Set<string>()
@@ -75,7 +73,6 @@ export function getToolDescriptionsForMode(
 	config.groups.forEach((groupEntry) => {
 		const groupName = getGroupName(groupEntry)
 		const toolGroup = TOOL_GROUPS[groupName]
-		console.log("toolGroup", toolGroup)
 		if (toolGroup) {
 			toolGroup.tools.forEach((tool) => {
 				if (isToolAllowedForMode(tool, mode, customModes ?? [], experiments ?? {})) {
@@ -87,19 +84,20 @@ export function getToolDescriptionsForMode(
 
 	// Add always available tools
 	ALWAYS_AVAILABLE_TOOLS.forEach((tool) => tools.add(tool))
-	// console.log("tools", tools)
+
 	// Map tool descriptions for allowed tools
 	const descriptions = Array.from(tools).map((toolName) => {
 		const descriptionFn = toolDescriptionMap[toolName]
-		// console.log("descriptionFn", descriptionFn)
 		if (!descriptionFn) {
 			return undefined
 		}
-
-		return descriptionFn({
+		// Skip tools that are explicitly disabled/empty
+		const desc = descriptionFn({
 			...args,
-			toolOptions: undefined, // No tool options in group-based approach
+			toolOptions: undefined,
 		})
+		if (!desc) return undefined
+		return desc
 	})
 
 	return `# Tools\n\n${descriptions.filter(Boolean).join("\n\n")}`
@@ -111,4 +109,3 @@ export {
 	getDataviewQueryDescription, getAskFollowupQuestionDescription, getAttemptCompletionDescription, getSwitchModeDescription, getInsertContentDescription,
 	getUseMcpToolDescription, getSearchAndReplaceDescription, getManageFilesDescription, getSearchWebDescription, getFetchUrlsContentDescription, getCallInsightsDescription as getCallInsightsDescription
 }
-
