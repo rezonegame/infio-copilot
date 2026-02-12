@@ -1,4 +1,8 @@
 releases:
+  - version: "0.8.8"
+    fixes:
+      - "fix import.meta SyntaxError that prevented plugin from loading in Obsidian"
+      - "replace esbuild define with post-build text replacement for CJS compatibility"
   - version: "0.8.6"
     features:
       - "fix mobile version build index error"
