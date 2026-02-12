@@ -60,7 +60,7 @@ import {
 } from '../../utils/tool-usage'
 import { useVaultSearch } from '../../utils/vault-search'
 
-import { AssistantMessageActions } from './AssistantMessageActions'
+import AssistantMessageActions from './AssistantMessageActions'
 import ChatHistoryView from './ChatHistoryView'
 import CommandsView from './CommandsView'
 // Removed CustomModeView, InsightView, McpHubView, SearchView
@@ -76,8 +76,7 @@ import { WorkspaceEditModal } from './WorkspaceEditModal'
 import PromptInputWithActions, {
 	ChatUserInputRef,
 } from './chat-input/PromptInputWithActions'
-import { MarkdownReasoningBlock } from './Markdown/MarkdownReasoningBlock'
-import { areReasoningDataEqual, reasoningData } from './Markdown/MarkdownReasoningBlock'
+import MarkdownReasoningBlock from './Markdown/MarkdownReasoningBlock'
 import ReactMarkdown from './ReactMarkdown'
 
 export type ChatViewRef = {
@@ -137,7 +136,7 @@ const ChatView = forwardRef<ChatViewRef, ChatViewProps>(
 			null,
 		)
 		const [queryProgress, setQueryProgress] = useState<QueryProgressState | null>(null)
-		const [reasoningData, setReasoningData] = useState<reasoningData | null>(null);
+		const [reasoningData, setReasoningData] = useState<string | null>(null);
 
 		const chatInputRef = useRef<ChatUserInputRef>(null)
 		const messagesEndRef = useRef<HTMLDivElement>(null)
@@ -216,8 +215,8 @@ const ChatView = forwardRef<ChatViewRef, ChatViewProps>(
 					}
 					case 'list_files': {
 						const path = toolArgs.path || ''
-						const files = await listFilesAndFolders(app, path, toolArgs.recursive === 'true')
-						return files.map(f => f.path).join('\n')
+						const files = await listFilesAndFolders(app.vault, path, toolArgs.recursive === 'true', undefined, app)
+						return files.join('\n')
 					}
 					case 'insert_content': {
 						// Simple insert append? Or line based?
@@ -322,10 +321,7 @@ const ChatView = forwardRef<ChatViewRef, ChatViewProps>(
 					// Handle reasoning (optional)
 					if (chunk.choices[0]?.delta?.reasoning_content) {
 						reasoningContent += chunk.choices[0].delta.reasoning_content
-						setReasoningData({
-							type: 'thinking',
-							content: reasoningContent
-						})
+						setReasoningData(reasoningContent)
 					}
 
 					if (chunk.choices[0]?.delta?.content) {
@@ -415,17 +411,12 @@ const ChatView = forwardRef<ChatViewRef, ChatViewProps>(
 										<>
 											{msg.reasoning && (
 												<MarkdownReasoningBlock
-													data={{
-														type: 'thinking',
-														content: msg.reasoning,
-													}}
+													reasoningContent={msg.reasoning}
 												/>
 											)}
 											<ReactMarkdown content={msg.content} />
 											<AssistantMessageActions
 												message={msg}
-												onCopy={() => { navigator.clipboard.writeText(msg.content); new Notice("Copied!") }}
-												onRetry={() => {/* impl retry */ }}
 											/>
 										</>
 									)}

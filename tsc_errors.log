@@ -1,0 +1,386 @@
+node_modules/@langchain/core/node_modules/zod/v4/core/api.d.cts(205,32): error TS1139: Type parameter declaration expected.
+node_modules/@langchain/core/node_modules/zod/v4/core/api.d.cts(205,40): error TS1005: ',' expected.
+node_modules/@langchain/core/node_modules/zod/v4/core/api.d.cts(205,57): error TS1005: ',' expected.
+node_modules/@langchain/core/node_modules/zod/v4/core/api.d.cts(205,64): error TS1005: ',' expected.
+node_modules/@langchain/core/node_modules/zod/v4/core/api.d.cts(205,75): error TS1005: ',' expected.
+node_modules/@langchain/core/node_modules/zod/v4/core/api.d.cts(205,77): error TS1005: ',' expected.
+node_modules/@langchain/core/node_modules/zod/v4/core/api.d.cts(205,84): error TS1005: ')' expected.
+node_modules/@langchain/core/node_modules/zod/v4/core/api.d.cts(205,130): error TS1005: ';' expected.
+node_modules/@langchain/core/node_modules/zod/v4/core/api.d.cts(205,142): error TS1109: Expression expected.
+node_modules/@langchain/core/node_modules/zod/v4/core/api.d.cts(205,168): error TS1005: ';' expected.
+node_modules/@langchain/core/node_modules/zod/v4/core/api.d.cts(205,169): error TS1128: Declaration or statement expected.
+node_modules/@langchain/core/node_modules/zod/v4/core/api.d.cts(226,31): error TS1139: Type parameter declaration expected.
+node_modules/@langchain/core/node_modules/zod/v4/core/api.d.cts(226,39): error TS1005: ',' expected.
+node_modules/@langchain/core/node_modules/zod/v4/core/api.d.cts(226,53): error TS1005: ',' expected.
+node_modules/@langchain/core/node_modules/zod/v4/core/api.d.cts(226,55): error TS1005: ',' expected.
+node_modules/@langchain/core/node_modules/zod/v4/core/api.d.cts(226,62): error TS1005: ')' expected.
+node_modules/@langchain/core/node_modules/zod/v4/core/api.d.cts(226,106): error TS1005: ';' expected.
+node_modules/@langchain/core/node_modules/zod/v4/core/api.d.cts(226,118): error TS1109: Expression expected.
+node_modules/@langchain/core/node_modules/zod/v4/core/api.d.cts(226,143): error TS1005: ';' expected.
+node_modules/@langchain/core/node_modules/zod/v4/core/api.d.cts(226,144): error TS1128: Declaration or statement expected.
+node_modules/@langchain/core/node_modules/zod/v4/core/api.d.cts(237,34): error TS1139: Type parameter declaration expected.
+node_modules/@langchain/core/node_modules/zod/v4/core/api.d.cts(237,42): error TS1005: ',' expected.
+node_modules/@langchain/core/node_modules/zod/v4/core/api.d.cts(237,55): error TS1005: ',' expected.
+node_modules/@langchain/core/node_modules/zod/v4/core/api.d.cts(237,69): error TS1109: Expression expected.
+node_modules/@langchain/core/node_modules/zod/v4/core/api.d.cts(237,76): error TS1005: ')' expected.
+node_modules/@langchain/core/node_modules/zod/v4/core/api.d.cts(237,122): error TS1005: ';' expected.
+node_modules/@langchain/core/node_modules/zod/v4/core/api.d.cts(237,134): error TS1109: Expression expected.
+node_modules/@langchain/core/node_modules/zod/v4/core/api.d.cts(237,162): error TS1005: ';' expected.
+node_modules/@langchain/core/node_modules/zod/v4/core/api.d.cts(237,163): error TS1128: Declaration or statement expected.
+node_modules/@langchain/core/node_modules/zod/v4/core/api.d.cts(238,34): error TS1139: Type parameter declaration expected.
+node_modules/@langchain/core/node_modules/zod/v4/core/api.d.cts(238,42): error TS1005: ',' expected.
+node_modules/@langchain/core/node_modules/zod/v4/core/api.d.cts(238,54): error TS1005: ',' expected.
+node_modules/@langchain/core/node_modules/zod/v4/core/api.d.cts(238,62): error TS1005: ',' expected.
+node_modules/@langchain/core/node_modules/zod/v4/core/api.d.cts(238,69): error TS1005: ')' expected.
+node_modules/@langchain/core/node_modules/zod/v4/core/api.d.cts(238,115): error TS1005: ';' expected.
+node_modules/@langchain/core/node_modules/zod/v4/core/api.d.cts(238,127): error TS1109: Expression expected.
+node_modules/@langchain/core/node_modules/zod/v4/core/api.d.cts(238,155): error TS1005: ';' expected.
+node_modules/@langchain/core/node_modules/zod/v4/core/api.d.cts(238,156): error TS1128: Declaration or statement expected.
+node_modules/@langchain/core/node_modules/zod/v4/core/api.d.cts(256,31): error TS1139: Type parameter declaration expected.
+node_modules/@langchain/core/node_modules/zod/v4/core/api.d.cts(256,39): error TS1005: ',' expected.
+node_modules/@langchain/core/node_modules/zod/v4/core/api.d.cts(256,54): error TS1005: ',' expected.
+node_modules/@langchain/core/node_modules/zod/v4/core/api.d.cts(256,67): error TS1005: ',' expected.
+node_modules/@langchain/core/node_modules/zod/v4/core/api.d.cts(256,82): error TS1005: ',' expected.
+node_modules/@langchain/core/node_modules/zod/v4/core/api.d.cts(256,91): error TS1005: ',' expected.
+node_modules/@langchain/core/node_modules/zod/v4/core/api.d.cts(256,99): error TS1005: '>' expected.
+node_modules/@langchain/core/node_modules/zod/v4/core/api.d.cts(256,117): error TS1109: Expression expected.
+node_modules/@langchain/core/node_modules/zod/v4/core/api.d.cts(256,167): error TS1005: ')' expected.
+node_modules/@langchain/core/node_modules/zod/v4/core/api.d.cts(256,208): error TS1005: ';' expected.
+node_modules/@langchain/core/node_modules/zod/v4/core/api.d.cts(256,216): error TS1005: ';' expected.
+node_modules/@langchain/core/node_modules/zod/v4/core/api.d.cts(256,263): error TS1005: ';' expected.
+node_modules/@langchain/core/node_modules/zod/v4/core/api.d.cts(256,264): error TS1128: Declaration or statement expected.
+node_modules/@langchain/core/node_modules/zod/v4/core/api.d.cts(260,42): error TS1139: Type parameter declaration expected.
+node_modules/@langchain/core/node_modules/zod/v4/core/api.d.cts(260,54): error TS1005: ',' expected.
+node_modules/@langchain/core/node_modules/zod/v4/core/api.d.cts(260,69): error TS1005: ',' expected.
+node_modules/@langchain/core/node_modules/zod/v4/core/api.d.cts(260,93): error TS1005: ',' expected.
+node_modules/@langchain/core/node_modules/zod/v4/core/api.d.cts(260,95): error TS1005: ',' expected.
+node_modules/@langchain/core/node_modules/zod/v4/core/api.d.cts(260,102): error TS1005: ')' expected.
+node_modules/@langchain/core/node_modules/zod/v4/core/api.d.cts(260,156): error TS1005: ';' expected.
+node_modules/@langchain/core/node_modules/zod/v4/core/api.d.cts(260,172): error TS1109: Expression expected.
+node_modules/@langchain/core/node_modules/zod/v4/core/api.d.cts(260,208): error TS1005: ';' expected.
+node_modules/@langchain/core/node_modules/zod/v4/core/api.d.cts(260,209): error TS1128: Declaration or statement expected.
+node_modules/@langchain/core/node_modules/zod/v4/core/function.d.cts(26,11): error TS1139: Type parameter declaration expected.
+node_modules/@langchain/core/node_modules/zod/v4/core/function.d.cts(26,17): error TS1434: Unexpected keyword or identifier.
+node_modules/@langchain/core/node_modules/zod/v4/core/function.d.cts(26,23): error TS1068: Unexpected token. A constructor, method, accessor, or property was expected.
+node_modules/@langchain/core/node_modules/zod/v4/core/function.d.cts(26,31): error TS1434: Unexpected keyword or identifier.
+node_modules/@langchain/core/node_modules/zod/v4/core/function.d.cts(26,35): error TS1068: Unexpected token. A constructor, method, accessor, or property was expected.
+node_modules/@langchain/core/node_modules/zod/v4/core/function.d.cts(26,36): error TS1434: Unexpected keyword or identifier.
+node_modules/@langchain/core/node_modules/zod/v4/core/function.d.cts(26,46): error TS1068: Unexpected token. A constructor, method, accessor, or property was expected.
+node_modules/@langchain/core/node_modules/zod/v4/core/function.d.cts(26,54): error TS1434: Unexpected keyword or identifier.
+node_modules/@langchain/core/node_modules/zod/v4/core/function.d.cts(26,59): error TS1068: Unexpected token. A constructor, method, accessor, or property was expected.
+node_modules/@langchain/core/node_modules/zod/v4/core/function.d.cts(26,106): error TS1005: ')' expected.
+node_modules/@langchain/core/node_modules/zod/v4/core/function.d.cts(26,108): error TS1434: Unexpected keyword or identifier.
+node_modules/@langchain/core/node_modules/zod/v4/core/function.d.cts(26,113): error TS1068: Unexpected token. A constructor, method, accessor, or property was expected.
+node_modules/@langchain/core/node_modules/zod/v4/core/function.d.cts(26,126): error TS1442: Expected '=' for property initializer.
+node_modules/@langchain/core/node_modules/zod/v4/core/function.d.cts(26,127): error TS1068: Unexpected token. A constructor, method, accessor, or property was expected.
+node_modules/@langchain/core/node_modules/zod/v4/core/function.d.cts(26,149): error TS1005: ',' expected.
+node_modules/@langchain/core/node_modules/zod/v4/core/function.d.cts(26,159): error TS1005: ',' expected.
+node_modules/@langchain/core/node_modules/zod/v4/core/function.d.cts(26,165): error TS1005: '>' expected.
+node_modules/@langchain/core/node_modules/zod/v4/core/function.d.cts(26,172): error TS1109: Expression expected.
+node_modules/@langchain/core/node_modules/zod/v4/core/function.d.cts(26,182): error TS1109: Expression expected.
+node_modules/@langchain/core/node_modules/zod/v4/core/function.d.cts(27,41): error TS1005: '?' expected.
+node_modules/@langchain/core/node_modules/zod/v4/core/function.d.cts(27,47): error TS1005: ',' expected.
+node_modules/@langchain/core/node_modules/zod/v4/core/function.d.cts(27,57): error TS1005: ';' expected.
+node_modules/@langchain/core/node_modules/zod/v4/core/function.d.cts(28,47): error TS1005: '?' expected.
+node_modules/@langchain/core/node_modules/zod/v4/core/function.d.cts(28,55): error TS1005: ',' expected.
+node_modules/@langchain/core/node_modules/zod/v4/core/function.d.cts(28,68): error TS1005: ';' expected.
+node_modules/@langchain/core/node_modules/zod/v4/core/function.d.cts(29,1): error TS1128: Declaration or statement expected.
+node_modules/@langchain/core/node_modules/zod/v4/core/function.d.cts(35,28): error TS1139: Type parameter declaration expected.
+node_modules/@langchain/core/node_modules/zod/v4/core/function.d.cts(35,37): error TS1005: ',' expected.
+node_modules/@langchain/core/node_modules/zod/v4/core/function.d.cts(35,50): error TS1005: ',' expected.
+node_modules/@langchain/core/node_modules/zod/v4/core/function.d.cts(35,69): error TS1109: Expression expected.
+node_modules/@langchain/core/node_modules/zod/v4/core/function.d.cts(35,102): error TS1005: ')' expected.
+node_modules/@langchain/core/node_modules/zod/v4/core/function.d.cts(37,2): error TS1128: Declaration or statement expected.
+node_modules/@langchain/core/node_modules/zod/v4/core/function.d.cts(37,3): error TS1128: Declaration or statement expected.
+node_modules/@langchain/core/node_modules/zod/v4/core/function.d.cts(38,28): error TS1139: Type parameter declaration expected.
+node_modules/@langchain/core/node_modules/zod/v4/core/function.d.cts(38,37): error TS1005: ',' expected.
+node_modules/@langchain/core/node_modules/zod/v4/core/function.d.cts(38,50): error TS1005: ',' expected.
+node_modules/@langchain/core/node_modules/zod/v4/core/function.d.cts(38,69): error TS1109: Expression expected.
+node_modules/@langchain/core/node_modules/zod/v4/core/function.d.cts(38,96): error TS1109: Expression expected.
+node_modules/@langchain/core/node_modules/zod/v4/core/function.d.cts(38,106): error TS1005: ',' expected.
+node_modules/@langchain/core/node_modules/zod/v4/core/function.d.cts(38,155): error TS1005: ')' expected.
+node_modules/@langchain/core/node_modules/zod/v4/core/function.d.cts(39,14): error TS1005: ',' expected.
+node_modules/@langchain/core/node_modules/zod/v4/core/function.d.cts(41,1): error TS1128: Declaration or statement expected.
+node_modules/@langchain/core/node_modules/zod/v4/core/function.d.cts(41,2): error TS1128: Declaration or statement expected.
+node_modules/@langchain/core/node_modules/zod/v4/core/function.d.cts(41,3): error TS1128: Declaration or statement expected.
+node_modules/@langchain/core/node_modules/zod/v4/core/function.d.cts(42,28): error TS1139: Type parameter declaration expected.
+node_modules/@langchain/core/node_modules/zod/v4/core/function.d.cts(42,37): error TS1005: ',' expected.
+node_modules/@langchain/core/node_modules/zod/v4/core/function.d.cts(42,84): error TS1005: ')' expected.
+node_modules/@langchain/core/node_modules/zod/v4/core/function.d.cts(43,14): error TS1005: ',' expected.
+node_modules/@langchain/core/node_modules/zod/v4/core/function.d.cts(44,1): error TS1128: Declaration or statement expected.
+node_modules/@langchain/core/node_modules/zod/v4/core/function.d.cts(44,2): error TS1128: Declaration or statement expected.
+node_modules/@langchain/core/node_modules/zod/v4/core/function.d.cts(44,3): error TS1128: Declaration or statement expected.
+node_modules/@langchain/core/node_modules/zod/v4/core/function.d.cts(45,28): error TS1139: Type parameter declaration expected.
+node_modules/@langchain/core/node_modules/zod/v4/core/function.d.cts(45,38): error TS1005: ',' expected.
+node_modules/@langchain/core/node_modules/zod/v4/core/function.d.cts(45,87): error TS1005: ')' expected.
+node_modules/@langchain/core/node_modules/zod/v4/core/function.d.cts(46,16): error TS1005: ',' expected.
+node_modules/@langchain/core/node_modules/zod/v4/core/function.d.cts(47,1): error TS1128: Declaration or statement expected.
+node_modules/@langchain/core/node_modules/zod/v4/core/function.d.cts(47,2): error TS1128: Declaration or statement expected.
+node_modules/@langchain/core/node_modules/zod/v4/core/function.d.cts(47,3): error TS1128: Declaration or statement expected.
+node_modules/@modelcontextprotocol/sdk/node_modules/zod/v4/classic/schemas.d.cts(477,31): error TS1139: Type parameter declaration expected.
+node_modules/@modelcontextprotocol/sdk/node_modules/zod/v4/classic/schemas.d.cts(477,39): error TS1005: ',' expected.
+node_modules/@modelcontextprotocol/sdk/node_modules/zod/v4/classic/schemas.d.cts(477,56): error TS1005: ',' expected.
+node_modules/@modelcontextprotocol/sdk/node_modules/zod/v4/classic/schemas.d.cts(477,60): error TS1005: ',' expected.
+node_modules/@modelcontextprotocol/sdk/node_modules/zod/v4/classic/schemas.d.cts(477,69): error TS1005: ',' expected.
+node_modules/@modelcontextprotocol/sdk/node_modules/zod/v4/classic/schemas.d.cts(477,71): error TS1005: ',' expected.
+node_modules/@modelcontextprotocol/sdk/node_modules/zod/v4/classic/schemas.d.cts(477,80): error TS1005: ')' expected.
+node_modules/@modelcontextprotocol/sdk/node_modules/zod/v4/classic/schemas.d.cts(477,92): error TS1109: Expression expected.
+node_modules/@modelcontextprotocol/sdk/node_modules/zod/v4/classic/schemas.d.cts(477,123): error TS1005: ';' expected.
+node_modules/@modelcontextprotocol/sdk/node_modules/zod/v4/classic/schemas.d.cts(477,124): error TS1128: Declaration or statement expected.
+node_modules/@modelcontextprotocol/sdk/node_modules/zod/v4/classic/schemas.d.cts(486,29): error TS1139: Type parameter declaration expected.
+node_modules/@modelcontextprotocol/sdk/node_modules/zod/v4/classic/schemas.d.cts(486,37): error TS1005: ',' expected.
+node_modules/@modelcontextprotocol/sdk/node_modules/zod/v4/classic/schemas.d.cts(486,54): error TS1005: ',' expected.
+node_modules/@modelcontextprotocol/sdk/node_modules/zod/v4/classic/schemas.d.cts(486,58): error TS1005: ',' expected.
+node_modules/@modelcontextprotocol/sdk/node_modules/zod/v4/classic/schemas.d.cts(486,67): error TS1005: ',' expected.
+node_modules/@modelcontextprotocol/sdk/node_modules/zod/v4/classic/schemas.d.cts(486,69): error TS1005: ',' expected.
+node_modules/@modelcontextprotocol/sdk/node_modules/zod/v4/classic/schemas.d.cts(486,78): error TS1005: ')' expected.
+node_modules/@modelcontextprotocol/sdk/node_modules/zod/v4/classic/schemas.d.cts(486,90): error TS1109: Expression expected.
+node_modules/@modelcontextprotocol/sdk/node_modules/zod/v4/classic/schemas.d.cts(486,119): error TS1005: ';' expected.
+node_modules/@modelcontextprotocol/sdk/node_modules/zod/v4/classic/schemas.d.cts(486,120): error TS1128: Declaration or statement expected.
+node_modules/@modelcontextprotocol/sdk/node_modules/zod/v4/classic/schemas.d.cts(542,13): error TS1139: Type parameter declaration expected.
+node_modules/@modelcontextprotocol/sdk/node_modules/zod/v4/classic/schemas.d.cts(542,21): error TS1005: ',' expected.
+node_modules/@modelcontextprotocol/sdk/node_modules/zod/v4/classic/schemas.d.cts(542,38): error TS1005: ',' expected.
+node_modules/@modelcontextprotocol/sdk/node_modules/zod/v4/classic/schemas.d.cts(542,45): error TS1005: ')' expected.
+node_modules/@modelcontextprotocol/sdk/node_modules/zod/v4/classic/schemas.d.cts(542,46): error TS1128: Declaration or statement expected.
+node_modules/@modelcontextprotocol/sdk/node_modules/zod/v4/classic/schemas.d.cts(542,57): error TS1005: ')' expected.
+node_modules/@modelcontextprotocol/sdk/node_modules/zod/v4/classic/schemas.d.cts(542,69): error TS1109: Expression expected.
+node_modules/@modelcontextprotocol/sdk/node_modules/zod/v4/classic/schemas.d.cts(542,99): error TS1005: ';' expected.
+node_modules/@modelcontextprotocol/sdk/node_modules/zod/v4/classic/schemas.d.cts(542,100): error TS1128: Declaration or statement expected.
+node_modules/@modelcontextprotocol/sdk/node_modules/zod/v4/classic/schemas.d.cts(543,13): error TS1109: Expression expected.
+node_modules/@modelcontextprotocol/sdk/node_modules/zod/v4/classic/schemas.d.cts(543,21): error TS1005: ',' expected.
+node_modules/@modelcontextprotocol/sdk/node_modules/zod/v4/classic/schemas.d.cts(543,38): error TS1005: ',' expected.
+node_modules/@modelcontextprotocol/sdk/node_modules/zod/v4/classic/schemas.d.cts(543,45): error TS1005: ')' expected.
+node_modules/@modelcontextprotocol/sdk/node_modules/zod/v4/classic/schemas.d.cts(543,46): error TS1128: Declaration or statement expected.
+node_modules/@modelcontextprotocol/sdk/node_modules/zod/v4/classic/schemas.d.cts(543,57): error TS1005: ')' expected.
+node_modules/@modelcontextprotocol/sdk/node_modules/zod/v4/classic/schemas.d.cts(543,69): error TS1109: Expression expected.
+node_modules/@modelcontextprotocol/sdk/node_modules/zod/v4/classic/schemas.d.cts(543,99): error TS1005: ';' expected.
+node_modules/@modelcontextprotocol/sdk/node_modules/zod/v4/classic/schemas.d.cts(543,100): error TS1128: Declaration or statement expected.
+node_modules/@modelcontextprotocol/sdk/node_modules/zod/v4/classic/schemas.d.cts(544,1): error TS1128: Declaration or statement expected.
+node_modules/@modelcontextprotocol/sdk/node_modules/zod/v4/classic/schemas.d.cts(546,24): error TS1139: Type parameter declaration expected.
+node_modules/@modelcontextprotocol/sdk/node_modules/zod/v4/classic/schemas.d.cts(546,32): error TS1005: ',' expected.
+node_modules/@modelcontextprotocol/sdk/node_modules/zod/v4/classic/schemas.d.cts(546,49): error TS1005: ',' expected.
+node_modules/@modelcontextprotocol/sdk/node_modules/zod/v4/classic/schemas.d.cts(546,55): error TS1005: ',' expected.
+node_modules/@modelcontextprotocol/sdk/node_modules/zod/v4/classic/schemas.d.cts(546,57): error TS1005: ',' expected.
+node_modules/@modelcontextprotocol/sdk/node_modules/zod/v4/classic/schemas.d.cts(546,65): error TS1005: ')' expected.
+node_modules/@modelcontextprotocol/sdk/node_modules/zod/v4/classic/schemas.d.cts(546,77): error TS1109: Expression expected.
+node_modules/@modelcontextprotocol/sdk/node_modules/zod/v4/classic/schemas.d.cts(546,107): error TS1005: ';' expected.
+node_modules/@modelcontextprotocol/sdk/node_modules/zod/v4/classic/schemas.d.cts(546,108): error TS1128: Declaration or statement expected.
+node_modules/@modelcontextprotocol/sdk/node_modules/zod/v4/classic/schemas.d.cts(547,24): error TS1139: Type parameter declaration expected.
+node_modules/@modelcontextprotocol/sdk/node_modules/zod/v4/classic/schemas.d.cts(547,32): error TS1005: ',' expected.
+node_modules/@modelcontextprotocol/sdk/node_modules/zod/v4/classic/schemas.d.cts(547,44): error TS1005: ',' expected.
+node_modules/@modelcontextprotocol/sdk/node_modules/zod/v4/classic/schemas.d.cts(547,53): error TS1005: ',' expected.
+node_modules/@modelcontextprotocol/sdk/node_modules/zod/v4/classic/schemas.d.cts(547,62): error TS1005: ')' expected.
+node_modules/@modelcontextprotocol/sdk/node_modules/zod/v4/classic/schemas.d.cts(547,74): error TS1109: Expression expected.
+node_modules/@modelcontextprotocol/sdk/node_modules/zod/v4/classic/schemas.d.cts(547,104): error TS1005: ';' expected.
+node_modules/@modelcontextprotocol/sdk/node_modules/zod/v4/classic/schemas.d.cts(547,105): error TS1128: Declaration or statement expected.
+node_modules/@modelcontextprotocol/sdk/node_modules/zod/v4/classic/schemas.d.cts(564,33): error TS1139: Type parameter declaration expected.
+node_modules/@modelcontextprotocol/sdk/node_modules/zod/v4/classic/schemas.d.cts(564,41): error TS1005: ',' expected.
+node_modules/@modelcontextprotocol/sdk/node_modules/zod/v4/classic/schemas.d.cts(564,62): error TS1005: ',' expected.
+node_modules/@modelcontextprotocol/sdk/node_modules/zod/v4/classic/schemas.d.cts(564,76): error TS1109: Expression expected.
+node_modules/@modelcontextprotocol/sdk/node_modules/zod/v4/classic/schemas.d.cts(564,83): error TS1005: ')' expected.
+node_modules/@modelcontextprotocol/sdk/node_modules/zod/v4/classic/schemas.d.cts(564,95): error TS1109: Expression expected.
+node_modules/@modelcontextprotocol/sdk/node_modules/zod/v4/classic/schemas.d.cts(564,128): error TS1005: ';' expected.
+node_modules/@modelcontextprotocol/sdk/node_modules/zod/v4/classic/schemas.d.cts(564,129): error TS1128: Declaration or statement expected.
+node_modules/@modelcontextprotocol/sdk/node_modules/zod/v4/classic/schemas.d.cts(565,33): error TS1139: Type parameter declaration expected.
+node_modules/@modelcontextprotocol/sdk/node_modules/zod/v4/classic/schemas.d.cts(565,41): error TS1005: ',' expected.
+node_modules/@modelcontextprotocol/sdk/node_modules/zod/v4/classic/schemas.d.cts(565,53): error TS1005: ',' expected.
+node_modules/@modelcontextprotocol/sdk/node_modules/zod/v4/classic/schemas.d.cts(565,61): error TS1005: ',' expected.
+node_modules/@modelcontextprotocol/sdk/node_modules/zod/v4/classic/schemas.d.cts(565,68): error TS1005: ')' expected.
+node_modules/@modelcontextprotocol/sdk/node_modules/zod/v4/classic/schemas.d.cts(565,80): error TS1109: Expression expected.
+node_modules/@modelcontextprotocol/sdk/node_modules/zod/v4/classic/schemas.d.cts(565,113): error TS1005: ';' expected.
+node_modules/@modelcontextprotocol/sdk/node_modules/zod/v4/classic/schemas.d.cts(565,114): error TS1128: Declaration or statement expected.
+node_modules/@modelcontextprotocol/sdk/node_modules/zod/v4/classic/schemas.d.cts(644,30): error TS1139: Type parameter declaration expected.
+node_modules/@modelcontextprotocol/sdk/node_modules/zod/v4/classic/schemas.d.cts(644,38): error TS1005: ',' expected.
+node_modules/@modelcontextprotocol/sdk/node_modules/zod/v4/classic/schemas.d.cts(644,50): error TS1005: ',' expected.
+node_modules/@modelcontextprotocol/sdk/node_modules/zod/v4/classic/schemas.d.cts(644,63): error TS1005: ',' expected.
+node_modules/@modelcontextprotocol/sdk/node_modules/zod/v4/classic/schemas.d.cts(644,75): error TS1005: ',' expected.
+node_modules/@modelcontextprotocol/sdk/node_modules/zod/v4/classic/schemas.d.cts(644,84): error TS1005: ',' expected.
+node_modules/@modelcontextprotocol/sdk/node_modules/zod/v4/classic/schemas.d.cts(644,92): error TS1005: '>' expected.
+node_modules/@modelcontextprotocol/sdk/node_modules/zod/v4/classic/schemas.d.cts(644,110): error TS1109: Expression expected.
+node_modules/@modelcontextprotocol/sdk/node_modules/zod/v4/classic/schemas.d.cts(644,155): error TS1005: ')' expected.
+node_modules/@modelcontextprotocol/sdk/node_modules/zod/v4/classic/schemas.d.cts(644,163): error TS1005: ';' expected.
+node_modules/@modelcontextprotocol/sdk/node_modules/zod/v4/classic/schemas.d.cts(644,207): error TS1005: ';' expected.
+node_modules/@modelcontextprotocol/sdk/node_modules/zod/v4/classic/schemas.d.cts(644,208): error TS1128: Declaration or statement expected.
+node_modules/@modelcontextprotocol/sdk/node_modules/zod/v4/classic/schemas.d.cts(651,31): error TS1139: Type parameter declaration expected.
+node_modules/@modelcontextprotocol/sdk/node_modules/zod/v4/classic/schemas.d.cts(651,39): error TS1005: ',' expected.
+node_modules/@modelcontextprotocol/sdk/node_modules/zod/v4/classic/schemas.d.cts(651,51): error TS1005: ',' expected.
+node_modules/@modelcontextprotocol/sdk/node_modules/zod/v4/classic/schemas.d.cts(651,64): error TS1005: ',' expected.
+node_modules/@modelcontextprotocol/sdk/node_modules/zod/v4/classic/schemas.d.cts(651,76): error TS1005: ',' expected.
+node_modules/@modelcontextprotocol/sdk/node_modules/zod/v4/classic/schemas.d.cts(651,106): error TS1005: ')' expected.
+node_modules/@modelcontextprotocol/sdk/node_modules/zod/v4/classic/schemas.d.cts(654,2): error TS1005: ',' expected.
+node_modules/@modelcontextprotocol/sdk/node_modules/zod/v4/classic/schemas.d.cts(654,3): error TS1134: Variable declaration expected.
+node_modules/@modelcontextprotocol/sdk/node_modules/zod/v4/classic/schemas.d.cts(654,13): error TS1005: ',' expected.
+node_modules/@modelcontextprotocol/sdk/node_modules/zod/v4/classic/schemas.d.cts(654,15): error TS1005: '>' expected.
+node_modules/@modelcontextprotocol/sdk/node_modules/zod/v4/classic/schemas.d.cts(654,19): error TS1109: Expression expected.
+node_modules/@modelcontextprotocol/sdk/node_modules/zod/v4/classic/schemas.d.cts(665,41): error TS1139: Type parameter declaration expected.
+node_modules/@modelcontextprotocol/sdk/node_modules/zod/v4/classic/schemas.d.cts(665,53): error TS1005: ',' expected.
+node_modules/@modelcontextprotocol/sdk/node_modules/zod/v4/classic/schemas.d.cts(665,65): error TS1005: ',' expected.
+node_modules/@modelcontextprotocol/sdk/node_modules/zod/v4/classic/schemas.d.cts(665,89): error TS1005: ',' expected.
+node_modules/@modelcontextprotocol/sdk/node_modules/zod/v4/classic/schemas.d.cts(665,91): error TS1005: ',' expected.
+node_modules/@modelcontextprotocol/sdk/node_modules/zod/v4/classic/schemas.d.cts(665,98): error TS1005: ')' expected.
+node_modules/@modelcontextprotocol/sdk/node_modules/zod/v4/classic/schemas.d.cts(665,114): error TS1109: Expression expected.
+node_modules/@modelcontextprotocol/sdk/node_modules/zod/v4/classic/schemas.d.cts(665,155): error TS1005: ';' expected.
+node_modules/@modelcontextprotocol/sdk/node_modules/zod/v4/classic/schemas.d.cts(665,156): error TS1128: Declaration or statement expected.
+node_modules/@modelcontextprotocol/sdk/node_modules/zod/v4/classic/schemas.d.cts(683,11): error TS1139: Type parameter declaration expected.
+node_modules/@modelcontextprotocol/sdk/node_modules/zod/v4/classic/schemas.d.cts(683,23): error TS1005: ',' expected.
+node_modules/@modelcontextprotocol/sdk/node_modules/zod/v4/classic/schemas.d.cts(683,35): error TS1005: ',' expected.
+node_modules/@modelcontextprotocol/sdk/node_modules/zod/v4/classic/schemas.d.cts(683,48): error TS1389: 'const' is not allowed as a variable declaration name.
+node_modules/@modelcontextprotocol/sdk/node_modules/zod/v4/classic/schemas.d.cts(683,59): error TS1005: ',' expected.
+node_modules/@modelcontextprotocol/sdk/node_modules/zod/v4/classic/schemas.d.cts(683,71): error TS1005: ',' expected.
+node_modules/@modelcontextprotocol/sdk/node_modules/zod/v4/classic/schemas.d.cts(683,116): error TS1005: ')' expected.
+node_modules/@modelcontextprotocol/sdk/node_modules/zod/v4/classic/schemas.d.cts(683,129): error TS1005: ',' expected.
+node_modules/@modelcontextprotocol/sdk/node_modules/zod/v4/classic/schemas.d.cts(683,130): error TS1134: Variable declaration expected.
+node_modules/@modelcontextprotocol/sdk/node_modules/zod/v4/classic/schemas.d.cts(683,136): error TS1005: ',' expected.
+node_modules/@modelcontextprotocol/sdk/node_modules/zod/v4/classic/schemas.d.cts(683,137): error TS1134: Variable declaration expected.
+node_modules/@modelcontextprotocol/sdk/node_modules/zod/v4/classic/schemas.d.cts(683,150): error TS1005: ',' expected.
+node_modules/@modelcontextprotocol/sdk/node_modules/zod/v4/classic/schemas.d.cts(683,178): error TS1005: '>' expected.
+node_modules/@modelcontextprotocol/sdk/node_modules/zod/v4/classic/schemas.d.cts(683,188): error TS1109: Expression expected.
+node_modules/@modelcontextprotocol/sdk/node_modules/zod/v4/classic/schemas.d.cts(684,46): error TS1005: '?' expected.
+node_modules/@modelcontextprotocol/sdk/node_modules/zod/v4/classic/schemas.d.cts(684,52): error TS1005: ',' expected.
+node_modules/@modelcontextprotocol/sdk/node_modules/zod/v4/classic/schemas.d.cts(684,62): error TS1005: ';' expected.
+node_modules/@modelcontextprotocol/sdk/node_modules/zod/v4/classic/schemas.d.cts(685,18): error TS1005: ',' expected.
+node_modules/@modelcontextprotocol/sdk/node_modules/zod/v4/classic/schemas.d.cts(685,24): error TS1011: An element access expression should take an argument.
+node_modules/@modelcontextprotocol/sdk/node_modules/zod/v4/classic/schemas.d.cts(685,26): error TS1005: ';' expected.
+node_modules/@modelcontextprotocol/sdk/node_modules/zod/v4/classic/schemas.d.cts(686,44): error TS1005: '?' expected.
+node_modules/@modelcontextprotocol/sdk/node_modules/zod/v4/classic/schemas.d.cts(686,52): error TS1005: ',' expected.
+node_modules/@modelcontextprotocol/sdk/node_modules/zod/v4/classic/schemas.d.cts(686,65): error TS1005: ';' expected.
+node_modules/@modelcontextprotocol/sdk/node_modules/zod/v4/classic/schemas.d.cts(687,1): error TS1128: Declaration or statement expected.
+node_modules/@modelcontextprotocol/sdk/node_modules/zod/v4/classic/schemas.d.cts(690,35): error TS1139: Type parameter declaration expected.
+node_modules/@modelcontextprotocol/sdk/node_modules/zod/v4/classic/schemas.d.cts(690,44): error TS1005: ',' expected.
+node_modules/@modelcontextprotocol/sdk/node_modules/zod/v4/classic/schemas.d.cts(690,65): error TS1005: ',' expected.
+node_modules/@modelcontextprotocol/sdk/node_modules/zod/v4/classic/schemas.d.cts(690,80): error TS1109: Expression expected.
+node_modules/@modelcontextprotocol/sdk/node_modules/zod/v4/classic/schemas.d.cts(690,88): error TS1005: ')' expected.
+node_modules/@modelcontextprotocol/sdk/node_modules/zod/v4/classic/schemas.d.cts(692,2): error TS1128: Declaration or statement expected.
+node_modules/@modelcontextprotocol/sdk/node_modules/zod/v4/classic/schemas.d.cts(692,3): error TS1128: Declaration or statement expected.
+node_modules/@modelcontextprotocol/sdk/node_modules/zod/v4/classic/schemas.d.cts(693,35): error TS1139: Type parameter declaration expected.
+node_modules/@modelcontextprotocol/sdk/node_modules/zod/v4/classic/schemas.d.cts(693,44): error TS1005: ',' expected.
+node_modules/@modelcontextprotocol/sdk/node_modules/zod/v4/classic/schemas.d.cts(693,65): error TS1005: ',' expected.
+node_modules/@modelcontextprotocol/sdk/node_modules/zod/v4/classic/schemas.d.cts(693,80): error TS1109: Expression expected.
+node_modules/@modelcontextprotocol/sdk/node_modules/zod/v4/classic/schemas.d.cts(693,82): error TS1109: Expression expected.
+node_modules/@modelcontextprotocol/sdk/node_modules/zod/v4/classic/schemas.d.cts(693,92): error TS1005: ',' expected.
+node_modules/@modelcontextprotocol/sdk/node_modules/zod/v4/classic/schemas.d.cts(693,104): error TS1005: ',' expected.
+node_modules/@modelcontextprotocol/sdk/node_modules/zod/v4/classic/schemas.d.cts(693,151): error TS1005: ')' expected.
+node_modules/@modelcontextprotocol/sdk/node_modules/zod/v4/classic/schemas.d.cts(694,14): error TS1005: ',' expected.
+node_modules/@modelcontextprotocol/sdk/node_modules/zod/v4/classic/schemas.d.cts(696,1): error TS1128: Declaration or statement expected.
+node_modules/@modelcontextprotocol/sdk/node_modules/zod/v4/classic/schemas.d.cts(696,2): error TS1128: Declaration or statement expected.
+node_modules/@modelcontextprotocol/sdk/node_modules/zod/v4/classic/schemas.d.cts(696,3): error TS1128: Declaration or statement expected.
+node_modules/@modelcontextprotocol/sdk/node_modules/zod/v4/classic/schemas.d.cts(697,35): error TS1139: Type parameter declaration expected.
+node_modules/@modelcontextprotocol/sdk/node_modules/zod/v4/classic/schemas.d.cts(697,44): error TS1005: ',' expected.
+node_modules/@modelcontextprotocol/sdk/node_modules/zod/v4/classic/schemas.d.cts(697,56): error TS1005: ',' expected.
+node_modules/@modelcontextprotocol/sdk/node_modules/zod/v4/classic/schemas.d.cts(697,101): error TS1005: ')' expected.
+node_modules/@modelcontextprotocol/sdk/node_modules/zod/v4/classic/schemas.d.cts(698,14): error TS1005: ',' expected.
+node_modules/@modelcontextprotocol/sdk/node_modules/zod/v4/classic/schemas.d.cts(699,1): error TS1128: Declaration or statement expected.
+node_modules/@modelcontextprotocol/sdk/node_modules/zod/v4/classic/schemas.d.cts(699,2): error TS1128: Declaration or statement expected.
+node_modules/@modelcontextprotocol/sdk/node_modules/zod/v4/classic/schemas.d.cts(699,3): error TS1128: Declaration or statement expected.
+node_modules/@modelcontextprotocol/sdk/node_modules/zod/v4/classic/schemas.d.cts(700,35): error TS1139: Type parameter declaration expected.
+node_modules/@modelcontextprotocol/sdk/node_modules/zod/v4/classic/schemas.d.cts(700,45): error TS1005: ',' expected.
+node_modules/@modelcontextprotocol/sdk/node_modules/zod/v4/classic/schemas.d.cts(700,57): error TS1005: ',' expected.
+node_modules/@modelcontextprotocol/sdk/node_modules/zod/v4/classic/schemas.d.cts(700,104): error TS1005: ')' expected.
+node_modules/@modelcontextprotocol/sdk/node_modules/zod/v4/classic/schemas.d.cts(701,16): error TS1005: ',' expected.
+node_modules/@modelcontextprotocol/sdk/node_modules/zod/v4/classic/schemas.d.cts(702,1): error TS1128: Declaration or statement expected.
+node_modules/@modelcontextprotocol/sdk/node_modules/zod/v4/classic/schemas.d.cts(702,2): error TS1128: Declaration or statement expected.
+node_modules/@modelcontextprotocol/sdk/node_modules/zod/v4/classic/schemas.d.cts(702,3): error TS1128: Declaration or statement expected.
+node_modules/@modelcontextprotocol/sdk/node_modules/zod/v4/core/api.d.cts(210,32): error TS1139: Type parameter declaration expected.
+node_modules/@modelcontextprotocol/sdk/node_modules/zod/v4/core/api.d.cts(210,40): error TS1005: ',' expected.
+node_modules/@modelcontextprotocol/sdk/node_modules/zod/v4/core/api.d.cts(210,57): error TS1005: ',' expected.
+node_modules/@modelcontextprotocol/sdk/node_modules/zod/v4/core/api.d.cts(210,64): error TS1005: ',' expected.
+node_modules/@modelcontextprotocol/sdk/node_modules/zod/v4/core/api.d.cts(210,75): error TS1005: ',' expected.
+node_modules/@modelcontextprotocol/sdk/node_modules/zod/v4/core/api.d.cts(210,77): error TS1005: ',' expected.
+node_modules/@modelcontextprotocol/sdk/node_modules/zod/v4/core/api.d.cts(210,84): error TS1005: ')' expected.
+node_modules/@modelcontextprotocol/sdk/node_modules/zod/v4/core/api.d.cts(210,130): error TS1005: ';' expected.
+node_modules/@modelcontextprotocol/sdk/node_modules/zod/v4/core/api.d.cts(210,142): error TS1109: Expression expected.
+node_modules/@modelcontextprotocol/sdk/node_modules/zod/v4/core/api.d.cts(210,168): error TS1005: ';' expected.
+node_modules/@modelcontextprotocol/sdk/node_modules/zod/v4/core/api.d.cts(210,169): error TS1128: Declaration or statement expected.
+node_modules/@modelcontextprotocol/sdk/node_modules/zod/v4/core/api.d.cts(212,30): error TS1139: Type parameter declaration expected.
+node_modules/@modelcontextprotocol/sdk/node_modules/zod/v4/core/api.d.cts(212,38): error TS1005: ',' expected.
+node_modules/@modelcontextprotocol/sdk/node_modules/zod/v4/core/api.d.cts(212,55): error TS1005: ',' expected.
+node_modules/@modelcontextprotocol/sdk/node_modules/zod/v4/core/api.d.cts(212,62): error TS1005: ',' expected.
+node_modules/@modelcontextprotocol/sdk/node_modules/zod/v4/core/api.d.cts(212,73): error TS1005: ',' expected.
+node_modules/@modelcontextprotocol/sdk/node_modules/zod/v4/core/api.d.cts(212,75): error TS1005: ',' expected.
+node_modules/@modelcontextprotocol/sdk/node_modules/zod/v4/core/api.d.cts(212,82): error TS1005: ')' expected.
+node_modules/@modelcontextprotocol/sdk/node_modules/zod/v4/core/api.d.cts(212,126): error TS1005: ';' expected.
+node_modules/@modelcontextprotocol/sdk/node_modules/zod/v4/core/api.d.cts(212,138): error TS1109: Expression expected.
+node_modules/@modelcontextprotocol/sdk/node_modules/zod/v4/core/api.d.cts(212,162): error TS1005: ';' expected.
+node_modules/@modelcontextprotocol/sdk/node_modules/zod/v4/core/api.d.cts(212,163): error TS1128: Declaration or statement expected.
+node_modules/@modelcontextprotocol/sdk/node_modules/zod/v4/core/api.d.cts(233,31): error TS1139: Type parameter declaration expected.
+node_modules/@modelcontextprotocol/sdk/node_modules/zod/v4/core/api.d.cts(233,39): error TS1005: ',' expected.
+node_modules/@modelcontextprotocol/sdk/node_modules/zod/v4/core/api.d.cts(233,53): error TS1005: ',' expected.
+node_modules/@modelcontextprotocol/sdk/node_modules/zod/v4/core/api.d.cts(233,55): error TS1005: ',' expected.
+node_modules/@modelcontextprotocol/sdk/node_modules/zod/v4/core/api.d.cts(233,62): error TS1005: ')' expected.
+node_modules/@modelcontextprotocol/sdk/node_modules/zod/v4/core/api.d.cts(233,106): error TS1005: ';' expected.
+node_modules/@modelcontextprotocol/sdk/node_modules/zod/v4/core/api.d.cts(233,118): error TS1109: Expression expected.
+node_modules/@modelcontextprotocol/sdk/node_modules/zod/v4/core/api.d.cts(233,143): error TS1005: ';' expected.
+node_modules/@modelcontextprotocol/sdk/node_modules/zod/v4/core/api.d.cts(233,144): error TS1128: Declaration or statement expected.
+node_modules/@modelcontextprotocol/sdk/node_modules/zod/v4/core/api.d.cts(244,34): error TS1139: Type parameter declaration expected.
+node_modules/@modelcontextprotocol/sdk/node_modules/zod/v4/core/api.d.cts(244,42): error TS1005: ',' expected.
+node_modules/@modelcontextprotocol/sdk/node_modules/zod/v4/core/api.d.cts(244,55): error TS1005: ',' expected.
+node_modules/@modelcontextprotocol/sdk/node_modules/zod/v4/core/api.d.cts(244,69): error TS1109: Expression expected.
+node_modules/@modelcontextprotocol/sdk/node_modules/zod/v4/core/api.d.cts(244,76): error TS1005: ')' expected.
+node_modules/@modelcontextprotocol/sdk/node_modules/zod/v4/core/api.d.cts(244,122): error TS1005: ';' expected.
+node_modules/@modelcontextprotocol/sdk/node_modules/zod/v4/core/api.d.cts(244,134): error TS1109: Expression expected.
+node_modules/@modelcontextprotocol/sdk/node_modules/zod/v4/core/api.d.cts(244,162): error TS1005: ';' expected.
+node_modules/@modelcontextprotocol/sdk/node_modules/zod/v4/core/api.d.cts(244,163): error TS1128: Declaration or statement expected.
+node_modules/@modelcontextprotocol/sdk/node_modules/zod/v4/core/api.d.cts(245,34): error TS1139: Type parameter declaration expected.
+node_modules/@modelcontextprotocol/sdk/node_modules/zod/v4/core/api.d.cts(245,42): error TS1005: ',' expected.
+node_modules/@modelcontextprotocol/sdk/node_modules/zod/v4/core/api.d.cts(245,54): error TS1005: ',' expected.
+node_modules/@modelcontextprotocol/sdk/node_modules/zod/v4/core/api.d.cts(245,62): error TS1005: ',' expected.
+node_modules/@modelcontextprotocol/sdk/node_modules/zod/v4/core/api.d.cts(245,69): error TS1005: ')' expected.
+node_modules/@modelcontextprotocol/sdk/node_modules/zod/v4/core/api.d.cts(245,115): error TS1005: ';' expected.
+node_modules/@modelcontextprotocol/sdk/node_modules/zod/v4/core/api.d.cts(245,127): error TS1109: Expression expected.
+node_modules/@modelcontextprotocol/sdk/node_modules/zod/v4/core/api.d.cts(245,155): error TS1005: ';' expected.
+node_modules/@modelcontextprotocol/sdk/node_modules/zod/v4/core/api.d.cts(245,156): error TS1128: Declaration or statement expected.
+node_modules/@modelcontextprotocol/sdk/node_modules/zod/v4/core/api.d.cts(263,31): error TS1139: Type parameter declaration expected.
+node_modules/@modelcontextprotocol/sdk/node_modules/zod/v4/core/api.d.cts(263,39): error TS1005: ',' expected.
+node_modules/@modelcontextprotocol/sdk/node_modules/zod/v4/core/api.d.cts(263,54): error TS1005: ',' expected.
+node_modules/@modelcontextprotocol/sdk/node_modules/zod/v4/core/api.d.cts(263,67): error TS1005: ',' expected.
+node_modules/@modelcontextprotocol/sdk/node_modules/zod/v4/core/api.d.cts(263,82): error TS1005: ',' expected.
+node_modules/@modelcontextprotocol/sdk/node_modules/zod/v4/core/api.d.cts(263,91): error TS1005: ',' expected.
+node_modules/@modelcontextprotocol/sdk/node_modules/zod/v4/core/api.d.cts(263,99): error TS1005: '>' expected.
+node_modules/@modelcontextprotocol/sdk/node_modules/zod/v4/core/api.d.cts(263,117): error TS1109: Expression expected.
+node_modules/@modelcontextprotocol/sdk/node_modules/zod/v4/core/api.d.cts(263,167): error TS1005: ')' expected.
+node_modules/@modelcontextprotocol/sdk/node_modules/zod/v4/core/api.d.cts(263,208): error TS1005: ';' expected.
+node_modules/@modelcontextprotocol/sdk/node_modules/zod/v4/core/api.d.cts(263,216): error TS1005: ';' expected.
+node_modules/@modelcontextprotocol/sdk/node_modules/zod/v4/core/api.d.cts(263,263): error TS1005: ';' expected.
+node_modules/@modelcontextprotocol/sdk/node_modules/zod/v4/core/api.d.cts(263,264): error TS1128: Declaration or statement expected.
+node_modules/@modelcontextprotocol/sdk/node_modules/zod/v4/core/api.d.cts(267,42): error TS1139: Type parameter declaration expected.
+node_modules/@modelcontextprotocol/sdk/node_modules/zod/v4/core/api.d.cts(267,54): error TS1005: ',' expected.
+node_modules/@modelcontextprotocol/sdk/node_modules/zod/v4/core/api.d.cts(267,69): error TS1005: ',' expected.
+node_modules/@modelcontextprotocol/sdk/node_modules/zod/v4/core/api.d.cts(267,93): error TS1005: ',' expected.
+node_modules/@modelcontextprotocol/sdk/node_modules/zod/v4/core/api.d.cts(267,95): error TS1005: ',' expected.
+node_modules/@modelcontextprotocol/sdk/node_modules/zod/v4/core/api.d.cts(267,102): error TS1005: ')' expected.
+node_modules/@modelcontextprotocol/sdk/node_modules/zod/v4/core/api.d.cts(267,156): error TS1005: ';' expected.
+node_modules/@modelcontextprotocol/sdk/node_modules/zod/v4/core/api.d.cts(267,172): error TS1109: Expression expected.
+node_modules/@modelcontextprotocol/sdk/node_modules/zod/v4/core/api.d.cts(267,208): error TS1005: ';' expected.
+node_modules/@modelcontextprotocol/sdk/node_modules/zod/v4/core/api.d.cts(267,209): error TS1128: Declaration or statement expected.
+node_modules/@modelcontextprotocol/sdk/node_modules/zod/v4/core/schemas.d.cts(1085,11): error TS1139: Type parameter declaration expected.
+node_modules/@modelcontextprotocol/sdk/node_modules/zod/v4/core/schemas.d.cts(1085,23): error TS1005: ',' expected.
+node_modules/@modelcontextprotocol/sdk/node_modules/zod/v4/core/schemas.d.cts(1085,35): error TS1005: ',' expected.
+node_modules/@modelcontextprotocol/sdk/node_modules/zod/v4/core/schemas.d.cts(1085,48): error TS1389: 'const' is not allowed as a variable declaration name.
+node_modules/@modelcontextprotocol/sdk/node_modules/zod/v4/core/schemas.d.cts(1085,59): error TS1005: ',' expected.
+node_modules/@modelcontextprotocol/sdk/node_modules/zod/v4/core/schemas.d.cts(1085,106): error TS1005: ')' expected.
+node_modules/@modelcontextprotocol/sdk/node_modules/zod/v4/core/schemas.d.cts(1085,119): error TS1005: ',' expected.
+node_modules/@modelcontextprotocol/sdk/node_modules/zod/v4/core/schemas.d.cts(1085,120): error TS1134: Variable declaration expected.
+node_modules/@modelcontextprotocol/sdk/node_modules/zod/v4/core/schemas.d.cts(1085,126): error TS1005: ',' expected.
+node_modules/@modelcontextprotocol/sdk/node_modules/zod/v4/core/schemas.d.cts(1085,127): error TS1134: Variable declaration expected.
+node_modules/@modelcontextprotocol/sdk/node_modules/zod/v4/core/schemas.d.cts(1085,141): error TS1005: ',' expected.
+node_modules/@modelcontextprotocol/sdk/node_modules/zod/v4/core/schemas.d.cts(1085,164): error TS1005: '>' expected.
+node_modules/@modelcontextprotocol/sdk/node_modules/zod/v4/core/schemas.d.cts(1085,174): error TS1109: Expression expected.
+node_modules/@modelcontextprotocol/sdk/node_modules/zod/v4/core/schemas.d.cts(1086,41): error TS1005: '?' expected.
+node_modules/@modelcontextprotocol/sdk/node_modules/zod/v4/core/schemas.d.cts(1086,47): error TS1005: ',' expected.
+node_modules/@modelcontextprotocol/sdk/node_modules/zod/v4/core/schemas.d.cts(1086,57): error TS1005: ';' expected.
+node_modules/@modelcontextprotocol/sdk/node_modules/zod/v4/core/schemas.d.cts(1087,18): error TS1005: ',' expected.
+node_modules/@modelcontextprotocol/sdk/node_modules/zod/v4/core/schemas.d.cts(1087,24): error TS1011: An element access expression should take an argument.
+node_modules/@modelcontextprotocol/sdk/node_modules/zod/v4/core/schemas.d.cts(1087,26): error TS1005: ';' expected.
+node_modules/@modelcontextprotocol/sdk/node_modules/zod/v4/core/schemas.d.cts(1088,39): error TS1005: '?' expected.
+node_modules/@modelcontextprotocol/sdk/node_modules/zod/v4/core/schemas.d.cts(1088,47): error TS1005: ',' expected.
+node_modules/@modelcontextprotocol/sdk/node_modules/zod/v4/core/schemas.d.cts(1088,60): error TS1005: ';' expected.
+node_modules/@modelcontextprotocol/sdk/node_modules/zod/v4/core/schemas.d.cts(1089,1): error TS1128: Declaration or statement expected.
+node_modules/@types/d3-dispatch/index.d.ts(91,5): error TS1139: Type parameter declaration expected.
+node_modules/@types/d3-dispatch/index.d.ts(91,22): error TS1005: ',' expected.
+node_modules/@types/d3-dispatch/index.d.ts(91,36): error TS1005: ',' expected.
+node_modules/@types/d3-dispatch/index.d.ts(91,48): error TS1005: ',' expected.
+node_modules/@types/d3-dispatch/index.d.ts(92,1): error TS1109: Expression expected.
+node_modules/@types/d3-dispatch/index.d.ts(93,5): error TS1109: Expression expected.
+node_modules/@types/d3-dispatch/index.d.ts(93,26): error TS1011: An element access expression should take an argument.
+node_modules/@types/d3-dispatch/index.d.ts(94,1): error TS1128: Declaration or statement expected.
+node_modules/@types/d3-dispatch/index.d.ts(94,2): error TS1128: Declaration or statement expected.
