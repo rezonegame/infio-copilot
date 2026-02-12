@@ -1,4 +1,7 @@
 releases:
+  - version: "0.8.9"
+    fixes:
+      - "fix import.meta SyntaxError with self-contained inline expressions for Worker compatibility"
   - version: "0.8.8"
     fixes:
       - "fix import.meta SyntaxError that prevented plugin from loading in Obsidian"
